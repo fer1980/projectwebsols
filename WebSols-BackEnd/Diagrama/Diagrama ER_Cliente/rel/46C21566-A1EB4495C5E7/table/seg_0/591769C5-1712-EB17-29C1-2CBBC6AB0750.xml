@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="591769C5-1712-EB17-29C1-2CBBC6AB0750" schemaObject="EF855698-8688-C28B-B21F-4F8C966BE374" name="CL_PROFESION">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>CL_PROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:40 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_IDPROFESION" id="7E8ED830-69C8-D7F2-02FB-F73727B3B4F6">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>CL_PROFESION</sourceObjSchema>
+<sourceObjName>PR_IDPROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PR_PROFESION" id="7520C14A-1F99-A3D8-1C7D-90E90EFCBC63">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>CL_PROFESION</sourceObjSchema>
+<sourceObjName>PR_PROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="813E4415-0DA0-AD15-CD1F-174DC762A937" name="PK_PROFESION">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>PK_PROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E8ED830-69C8-D7F2-02FB-F73727B3B4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAD24E12-A162-705F-BF94-6B9F49F8078D" schemaObject="EF855698-8688-C28B-B21F-4F8C966BE374" name="PK_PROFESION">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>PK_PROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E8ED830-69C8-D7F2-02FB-F73727B3B4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

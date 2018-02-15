@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1252D0E8-8ACE-7CF7-27A8-1E425D6C2D5D" containerWithKeyObject="8455FC42-F19F-5003-9D99-A75651F1E8EA" localFKIndex="ABEA25C9-09F1-28A2-1B69-A9E445BAEEAC" name="CLCLIENTE_CLPROFESION">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>CLCLIENTE_CLPROFESION</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<referredTableLongName>C##PROYECTDB.CL_PROFESION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>591769C5-1712-EB17-29C1-2CBBC6AB0750</referredTableID>
+<keyObject>813E4415-0DA0-AD15-CD1F-174DC762A937</keyObject>
+<referredKeyID>813E4415-0DA0-AD15-CD1F-174DC762A937</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PR_IDPROFESION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

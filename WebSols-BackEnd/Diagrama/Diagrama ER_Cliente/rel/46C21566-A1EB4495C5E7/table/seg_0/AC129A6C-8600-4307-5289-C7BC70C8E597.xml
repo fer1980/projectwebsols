@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC129A6C-8600-4307-5289-C7BC70C8E597" schemaObject="EF855698-8688-C28B-B21F-4F8C966BE374" name="CL_DEPTO">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>CL_DEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:40 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DP_IDDEPTO" id="0303D6DA-9D1C-E513-ECE9-50AD065F0052">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>CL_DEPTO</sourceObjSchema>
+<sourceObjName>DP_IDDEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DP_IDPAIS" id="559C6D59-D511-7303-10A3-2EA97059BDF2">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>CL_DEPTO</sourceObjSchema>
+<sourceObjName>DP_IDPAIS</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="372DF23C-CB7E-D276-603E-A3593FC852EF" referredColumn="A91FCC67-B2BE-ADCB-584A-1B67A010F350"/>
+</associations>
+</Column>
+<Column name="DP_DEPTO" id="B905F29A-8500-98B6-1B46-9604B36AEEE1">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>CL_DEPTO</sourceObjSchema>
+<sourceObjName>DP_DEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89B53483-5EF6-8115-A101-09B9A58A5D4A" name="PK_DEPTO">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>PK_DEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0303D6DA-9D1C-E513-ECE9-50AD065F0052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5476ABCF-7464-AEFE-1547-7952F20E9A70" schemaObject="EF855698-8688-C28B-B21F-4F8C966BE374" name="PK_DEPTO">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>PK_DEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0303D6DA-9D1C-E513-ECE9-50AD065F0052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DE0A26B-CC60-1691-BBC9-9E29BF429FB1" name="CLDEPTO_CLPAIS">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="559C6D59-D511-7303-10A3-2EA97059BDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

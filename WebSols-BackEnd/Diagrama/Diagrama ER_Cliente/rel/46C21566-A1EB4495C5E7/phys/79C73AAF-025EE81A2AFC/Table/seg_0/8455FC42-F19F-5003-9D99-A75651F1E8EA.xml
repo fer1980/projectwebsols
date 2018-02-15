@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CL_CLIENTE" directorySegmentName="seg_0" id="8455FC42-F19F-5003-9D99-A75651F1E8EA">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F48B0B3D-478A-0033-CD14-62C7DEFE52BB</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CL_CIUDAD" id="05FAB04E-9D7A-4F12-214B-F0E9D6FF406C">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_CODCLIENTE" id="2A279021-68F7-AD6A-3870-4E27361A58F8">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_ESTADO" id="3518EBB8-E268-D550-873E-E9D2DB420C2B">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_PROFESION" id="3F7A3A82-E21D-5EE4-E3FF-CDCA6091A87D">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_NOMBRES" id="416E432E-AE7F-0655-0E58-35133AA2B76A">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_PAIS" id="4CA2A154-5F9B-940E-8DBC-75A8934ABB4A">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_SAPELLIDO" id="59A5F6F6-8EC7-C972-FEE9-9A7C87B65AF7">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_TELEFONOR" id="5C42C5D1-0EE1-D983-3F9C-641FBD9A75C2">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_PAPELLIDO" id="60225469-84EE-44FA-9977-CEDC0B361CB6">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_TIPODOCUMENTO" id="7C93579E-1ABF-9316-31CD-94C2C10E8162">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_DIRECCION" id="843BB0F8-B526-20F4-FC9B-F61C6A8EF56B">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_TELEFONOC" id="894ADA90-10BD-C5A0-4C1F-BB9E1447B22F">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_NUMDOCUMENTO" id="DF216A84-59EA-6733-18DF-98CFA8310647">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_DEPTO" id="FAA15034-2BC7-7063-D169-1AF1F74CED1E">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CL_EMAIL" id="FCBD61F3-B766-EAFD-6456-014385054D9C">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_CL_CLIENTE" id="08DAE7E8-05B1-6DD4-4ED0-5A553B6336BB">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CL_CLIENTE" id="8A7003D6-3126-0FE2-E8F4-546397ACA2F6">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLCLIENTE_CLDEPTO" id="7509B7B6-BFE7-762D-86FC-39A777CE5256">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLCLIENTE_CLPAIS" id="84D42182-3076-3736-C874-38A46F26C206">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLCLIENTE_CLPROFESION" id="ABEA25C9-09F1-28A2-1B69-A9E445BAEEAC">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLCLIENTE_CLCIUEDAD" id="B634CACB-98F9-C4AB-687A-1228464A31A9">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CL_CLIENTE" id="516CB359-7026-2217-369D-27EA4913DD29">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+<existingIndex>8A7003D6-3126-0FE2-E8F4-546397ACA2F6</existingIndex>
+<indexSegment>E353711E-1D0F-9FF3-233F-D327E8E75068</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_CL_CLIENTE" id="2221E80D-1BA7-B8A8-B100-5F5BCDEC69B3">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 06:24:57 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+<existingIndex>08DAE7E8-05B1-6DD4-4ED0-5A553B6336BB</existingIndex>
+<indexSegment>E353711E-1D0F-9FF3-233F-D327E8E75068</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

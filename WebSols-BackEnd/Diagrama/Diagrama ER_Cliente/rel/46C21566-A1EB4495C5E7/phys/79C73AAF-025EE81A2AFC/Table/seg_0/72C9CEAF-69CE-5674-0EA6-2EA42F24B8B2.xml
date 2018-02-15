@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CL_PAIS" directorySegmentName="seg_0" id="72C9CEAF-69CE-5674-0EA6-2EA42F24B8B2">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:40 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F48B0B3D-478A-0033-CD14-62C7DEFE52BB</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PA_IDPAIS" id="A91FCC67-B2BE-ADCB-584A-1B67A010F350">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PA_PAIS" id="C0B4AA39-50EA-523D-9539-95E9804BCEC1">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PAIS" id="DF661701-DAF8-75A2-2095-387C7558489C">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PAIS" id="8F42D03D-E454-F54B-F3E5-10B24740DC3D">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<segment>E353711E-1D0F-9FF3-233F-D327E8E75068</segment>
+<tableSpace>A8CF6358-C816-48C5-45B4-28F7A21B423D</tableSpace>
+<existingIndex>DF661701-DAF8-75A2-2095-387C7558489C</existingIndex>
+<indexSegment>E353711E-1D0F-9FF3-233F-D327E8E75068</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

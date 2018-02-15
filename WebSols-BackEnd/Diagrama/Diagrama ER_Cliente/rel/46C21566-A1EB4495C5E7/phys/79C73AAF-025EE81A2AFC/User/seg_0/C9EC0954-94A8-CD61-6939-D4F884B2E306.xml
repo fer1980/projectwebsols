@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##PROYECTDB" directorySegmentName="seg_0" id="C9EC0954-94A8-CD61-6939-D4F884B2E306">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjName>C##PROYECTDB</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:39 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<schemaObject>EF855698-8688-C28B-B21F-4F8C966BE374</schemaObject>
+</UserOraclev10g>

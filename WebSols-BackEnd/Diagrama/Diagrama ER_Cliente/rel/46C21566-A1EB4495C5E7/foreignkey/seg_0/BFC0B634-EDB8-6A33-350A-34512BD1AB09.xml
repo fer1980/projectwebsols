@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFC0B634-EDB8-6A33-350A-34512BD1AB09" containerWithKeyObject="13E3D58F-4837-F5C5-22F0-695ACC40F095" localFKIndex="2C4A82C8-265A-C3F9-4B6D-0C012CCF2F71" name="CLCIUDAD_CLDEPTO">
+<sourceConnName>LC64-system</sourceConnName>
+<sourceObjSchema>C##PROYECTDB</sourceObjSchema>
+<sourceObjName>CLCIUDAD_CLDEPTO</sourceObjName>
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:49:41 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<referredTableLongName>C##PROYECTDB.CL_DEPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC129A6C-8600-4307-5289-C7BC70C8E597</referredTableID>
+<keyObject>89B53483-5EF6-8115-A101-09B9A58A5D4A</keyObject>
+<referredKeyID>89B53483-5EF6-8115-A101-09B9A58A5D4A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DP_IDDEPTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -23,6 +23,7 @@ CREATE TABLE cl_Cliente(
     ,cl_pais             NUMBER(3) NOT NULL
     ,cl_profesion        NUMBER(2)
     ,cl_email            NVARCHAR2(32) NOT NULL
+    ,cl_estado           CHAR(1) NOT NULL
     ,CONSTRAINT pk_cl_Cliente PRIMARY KEY (cl_codCliente)
     ,CONSTRAINT clCliente_clPais FOREIGN KEY (cl_pais) REFERENCES cl_Pais (pa_idPais)
     ,CONSTRAINT clCliente_clDepto FOREIGN KEY (cl_depto) REFERENCES cl_Depto (dp_idDepto)

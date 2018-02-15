@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diagrama ER_Cliente" id="335658B6-7739-409C-8C15-BC2739FC21C6" version="3.5">
+<createdBy>luisa</createdBy>
+<createdTime>2018-02-15 04:44:38 UTC</createdTime>
+<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>335658B6-7739-409C-8C15-BC2739FC21C6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4FEA65CF-7BE6-A0A7-2906-2D2065F6C21E">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
