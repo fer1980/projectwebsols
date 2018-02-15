@@ -8,7 +8,7 @@
 CREATE TABLE cl_Depto(
      dp_idDepto NUMBER(3) NOT NULL
     ,dp_idPais  NUMBER(3) NOT NULL
-    ,dp_depto NVARCHAR2(32)
+    ,dp_depto NVARCHAR2(32) NOT NULL
     ,CONSTRAINT pk_depto PRIMARY KEY(dp_idDepto)
     ,CONSTRAINT clDepto_clPais FOREIGN KEY (dp_idPais) REFERENCES cl_Pais (pa_idPais)
 );

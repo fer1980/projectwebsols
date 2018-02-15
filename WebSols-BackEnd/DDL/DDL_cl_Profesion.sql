@@ -6,7 +6,7 @@
 */
 
 CREATE TABLE cl_Profesion(
-     pr_idProfesion NUMBER(3) NOT NULL
-    ,pr_profesion NVARCHAR2(32)
+     pr_idProfesion NUMBER(3)   NOT NULL
+    ,pr_profesion NVARCHAR2(32) NOT NULL
     ,CONSTRAINT pk_profesion PRIMARY KEY(pr_idProfesion)
 );
