@@ -6,7 +6,8 @@ BASE DE DATOS: ----
 
 Orden de ejucion:
 1. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Profesion.sql
-2. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Pais.sql
-3. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Depto.sql
-4. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Ciudad.sql
-5. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Cliente.sql
+2. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Idioma.sql
+3. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Pais.sql
+4. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Depto.sql
+5. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Ciudad.sql
+6. /projectwebsols/WebSols-BackEnd/DDL/DDL_cl_Cliente.sql
