@@ -10,5 +10,5 @@ CREATE TABLE cl_Ciudad(
     ,cd_idDepto  NUMBER(3)      NOT NULL
     ,cd_ciudad NVARCHAR2(32)    NOT NULL
     ,CONSTRAINT pk_ciudad PRIMARY KEY(cd_idCiudad)
-    ,CONSTRAINT clCiudad_clDepto FOREIGN KEY (cd_idDepto) REFERENCES cl_Depto (dp_idDepto)
+    ,CONSTRAINT clCiudad_clDepto_fk FOREIGN KEY (cd_idDepto) REFERENCES cl_Depto (dp_idDepto)
 );

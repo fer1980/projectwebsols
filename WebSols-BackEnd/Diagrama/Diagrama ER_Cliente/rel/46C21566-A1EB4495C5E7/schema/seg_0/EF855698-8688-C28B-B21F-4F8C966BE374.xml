@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##PROYECTDB" directorySegmentName="seg_0" id="EF855698-8688-C28B-B21F-4F8C966BE374">
-<createdBy>luisa</createdBy>
-<createdTime>2018-02-15 04:49:40 UTC</createdTime>
-<ownerDesignName>Diagrama ER_Cliente</ownerDesignName>
-<importedID>65718354-B58B-4DE1-1BEF-33F337F48B99</importedID>
-</SchemaObject>

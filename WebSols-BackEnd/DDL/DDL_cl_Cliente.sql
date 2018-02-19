@@ -25,9 +25,9 @@ CREATE TABLE cl_Cliente(
     ,cl_email            NVARCHAR2(32) NOT NULL
     ,cl_estado           CHAR(1) NOT NULL
     ,CONSTRAINT pk_cl_Cliente PRIMARY KEY (cl_codCliente)
-    ,CONSTRAINT clCliente_clPais FOREIGN KEY (cl_pais) REFERENCES cl_Pais (pa_idPais)
-    ,CONSTRAINT clCliente_clDepto FOREIGN KEY (cl_depto) REFERENCES cl_Depto (dp_idDepto)
-    ,CONSTRAINT clCliente_clCiuedad FOREIGN KEY (cl_ciudad) REFERENCES cl_Ciudad (cd_idCiudad)
-    ,CONSTRAINT clCliente_clProfesion FOREIGN KEY (cl_profesion) REFERENCES cl_Profesion (pr_idProfesion)
+    ,CONSTRAINT clCliente_clPais_fk FOREIGN KEY (cl_pais) REFERENCES cl_Pais (pa_idPais)
+    ,CONSTRAINT clCliente_clDepto_fk FOREIGN KEY (cl_depto) REFERENCES cl_Depto (dp_idDepto)
+    ,CONSTRAINT clCliente_clCiuedad_fk FOREIGN KEY (cl_ciudad) REFERENCES cl_Ciudad (cd_idCiudad)
+    ,CONSTRAINT clCliente_clProfesion_fk FOREIGN KEY (cl_profesion) REFERENCES cl_Profesion (pr_idProfesion)
     ,CONSTRAINT uq_cl_Cliente UNIQUE (cl_numDocumento, cl_Pais)
 );
