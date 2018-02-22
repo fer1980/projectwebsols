@@ -9,12 +9,8 @@ CREATE TABLE C##PROYECTDB.PR_TIENDA(
     ,ti_tienda       NVARCHAR2(32) NOT NULL
     ,ti_direccion    NVARCHAR2(64) NOT NULL
     ,ti_idCiudad     NUMBER(3) NOT NULL
-    ,ti_idDepto      NUMBER(3) NOT NULL
-    ,ti_idPais       NUMBER(3) NOT NULL
     ,ti_telefono     NUMBER(16) NOT NULL
     ,ti_NIT          NVARCHAR2(32) NOT NULL
     ,CONSTRAINT pk_tienda PRIMARY KEY(ti_idTienda)
-    ,CONSTRAINT tienda_pais_fk FOREIGN KEY (ti_idPais) REFERENCES C##PROYECTDB.CL_PAIS (pa_idPais)
-    ,CONSTRAINT tienda_depto_fk FOREIGN KEY (ti_idDepto) REFERENCES C##PROYECTDB.CL_DEPTO (dp_idDepto)
     ,CONSTRAINT tienda_ciudad_fk FOREIGN KEY (ti_idCiudad) REFERENCES C##PROYECTDB.CL_CIUDAD (cd_idCiudad)
 );
