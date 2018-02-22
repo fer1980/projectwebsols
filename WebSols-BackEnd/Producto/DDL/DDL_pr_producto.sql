@@ -4,7 +4,7 @@
         @Proposito: Almacena la informacion basica del producto.
         @Requisito: pr_fabricante, pr_categoria, pr_descuento
 */
-CREATE TABLE c##producto.pr_producto(
+CREATE TABLE C##PROYECTDB.PR_PRODUCTO(
     pr_idProducto       NUMBER(3) NOT NULL,
     pr_descripcion      NVARCHAR2(32) NOT NULL,
     pr_precio           NUMERIC(3,2) NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE c##producto.pr_producto(
     pr_idCategoria      NUMERIC(3) NOT NULL,
     pr_idDescuento      NUMERIC(3),
     CONSTRAINT pk_producto PRIMARY KEY(pr_idProducto),
-    CONSTRAINT producto_fabricante_fk FOREIGN KEY (pr_idFabricante) REFERENCES c##producto.pr_fabricante (fa_idFabricante),
-    CONSTRAINT producto_categoria_fk FOREIGN KEY (pr_idCategoria) REFERENCES c##producto.pr_categoria (ca_idCategoria),
-    CONSTRAINT producto_descuento_fk FOREIGN KEY (pr_idDescuento) REFERENCES c##producto.pr_descuento (de_idDescuento)
+    CONSTRAINT producto_fabricante_fk FOREIGN KEY (pr_idFabricante) REFERENCES C##PROYECTDB.pr_fabricante (fa_idFabricante),
+    CONSTRAINT producto_categoria_fk FOREIGN KEY (pr_idCategoria) REFERENCES C##PROYECTDB.pr_categoria (ca_idCategoria),
+    CONSTRAINT producto_descuento_fk FOREIGN KEY (pr_idDescuento) REFERENCES C##PROYECTDB.pr_descuento (de_idDescuento)
 );

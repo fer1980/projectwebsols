@@ -6,13 +6,14 @@
         @Requisito: N/A
 */
 
-CREATE TABLE tabla (
+CREATE TABLE C##PROYECTDB.TABLA
+(
     id_Tabla    NUMERIC(2) NOT NULL,
     tabla       NVARCHAR2(50) NOT NULL,
     CONSTRAINT pk_tabla PRIMARY KEY (id_Tabla)
 );
 
-CREATE TABLE catalogo
+CREATE TABLE C##PROYECTDB.CATALOGO
 (
     cod_tabla NUMERIC(2),
     codigo    CHAR(1),

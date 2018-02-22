@@ -2,10 +2,10 @@
     Creacion de tabla cl_Direccion [Proyecto Bases de Datos II]
         @author: Luis Alberto C. A.
         @Proposito: Almacena la direccion de los clientes
-        @Requisito: creacion de tablas:  cl_Pais, cl_depto, cl_ciudad
+        @Requisito: creacion de tablas:  cl_Pais, cl_depto, cl_ciudad, cl_cliente
 */
 
-CREATE TABLE cl_Direccion(
+CREATE TABLE C##PROYECTDB.CL_DIRECCION(
      di_tipoDireccion    CHAR(1) NOT NULL
     ,di_cliente          INT
     ,di_direccion        NVARCHAR2(64) NOT NULL

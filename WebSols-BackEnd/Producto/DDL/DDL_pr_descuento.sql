@@ -5,7 +5,7 @@
                     aplicables a los productos
         @Requisito: N/A
 */
-CREATE TABLE c##producto.pr_descuento(
+CREATE TABLE C##PROYECTDB.PR_DESCUENTO(
     de_idDescuento  NUMBER(3) NOT NULL,
     de_porcentaje   NUMBER(3) NOT NULL,
     de_fecha_inicio DATE NOT NULL,

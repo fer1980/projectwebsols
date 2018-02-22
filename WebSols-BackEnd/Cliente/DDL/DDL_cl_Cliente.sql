@@ -5,7 +5,7 @@
         @Requisito: creacion de tablas:  cl_Profesion
 */
 
-CREATE TABLE cl_cliente(
+CREATE TABLE C##PROYECTDB.CL_CLIENTE(
      cl_idCliente       INT NOT NULL
     ,cl_tipoDocumento    CHAR(1) NOT NULL
     ,cl_numDocumento     INT NOT NULL
@@ -17,7 +17,7 @@ CREATE TABLE cl_cliente(
     ,cl_estado           CHAR(1) NOT NULL
     ,cl_tipoCliente      CHAR(1) NOT NULL
     ,cl_identTributaria  INT
-    ,CONSTRAINT pk_cliente PRIMARY KEY (cl_codCliente)
+    ,CONSTRAINT pk_cliente PRIMARY KEY (cl_idCliente)
     ,CONSTRAINT cliente_profesion_fk FOREIGN KEY (cl_profesion) REFERENCES cl_profesion (pr_idProfesion)
     ,CONSTRAINT uq_cl_Cliente UNIQUE (cl_numDocumento)
 );

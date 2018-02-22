@@ -6,7 +6,7 @@
                     por producto.
         @Requisito: N/A
 */
-CREATE TABLE c##producto.pr_proveedor(
+CREATE TABLE C##PROYECTDB.PR_PROVEEDOR(
     pro_idProveedor     NUMBER(3) NOT NULL,
     pro_proveedor       NVARCHAR2(32) NOT NULL,
     CONSTRAINT pk_proveedor PRIMARY KEY(pro_idProveedor)

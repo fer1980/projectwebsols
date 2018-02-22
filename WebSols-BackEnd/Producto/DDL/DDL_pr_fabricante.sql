@@ -6,11 +6,11 @@
                     y depender de un proveedor.
         @Requisito: pr_proveedor
 */
-CREATE TABLE c##producto.pr_fabricante(
+CREATE TABLE C##PROYECTDB.PR_FABRICANTE(
     fa_idFabricante     NUMBER(3) NOT NULL,
     fa_fabricante       NVARCHAR2(32) NOT NULL,
     fa_idProveedor        NUMERIC(3) NOT NULL,
     CONSTRAINT pk_fabricante PRIMARY KEY(fa_idFabricante),
     CONSTRAINT fabricante_proveedor_fk FOREIGN KEY (fa_idProveedor)
-    REFERENCES c##producto.pr_proveedor (pro_idProveedor)
+    REFERENCES C##PROYECTDB.PR_PROVEEDOR (pro_idProveedor)
 );

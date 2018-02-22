@@ -6,11 +6,11 @@
                     subcategoria.
         @Requisito: N/A
 */
-CREATE TABLE c##producto.pr_categoria(
+CREATE TABLE C##PROYECTDB.PR_CATEGORIA(
     ca_idCategoria      NUMBER(3) NOT NULL,
     ca_categoria        NVARCHAR2(32) NOT NULL,
     ca_idPadre          NUMBER(3),
     CONSTRAINT pk_categoria PRIMARY KEY(ca_idCategoria),
     CONSTRAINT categoriah_categoriap_fk FOREIGN KEY (ca_idPadre)
-    REFERENCES c##producto.pr_categoria (ca_idCategoria)
+    REFERENCES C##PROYECTDB.pr_categoria (ca_idCategoria)
 );

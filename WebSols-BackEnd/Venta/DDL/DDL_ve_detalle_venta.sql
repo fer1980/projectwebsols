@@ -6,11 +6,11 @@
 */
 
 CREATE TABLE ve_detalle_venta(
-     dv_idVenta          NUMBER(3) NOT NULL
+     dv_idFactura          NUMBER(3) NOT NULL
     ,dv_idProducto       NUMBER(3) NOT NULL
     ,dv_unidades         NUMBER(2) NOT NULL
-    ,dv_costoDetalle     MONEY NOT NULL
-    ,CONSTRAINT pk_detalle_venta PRIMARY KEY (dv_idVenta, dv_idProducto)
-    ,CONSTRAINT producto_venta_fk FOREIGN KEY (dv_idVenta) REFERENCES ve_venta (ve_idVenta)
-    ,CONSTRAINT venta_producto_fk FOREIGN KEY (dv_idProducto) REFERENCES pr_producto (pr_idProducto)
+    ,dv_costoDetalle     NUMBER(9,2) NOT NULL
+    ,CONSTRAINT pk_detalle_venta PRIMARY KEY (dv_idFactura, dv_idProducto)
+    ,CONSTRAINT producto_factura_fk FOREIGN KEY (dv_idFactura) REFERENCES C##PROYECTDB.VE_FACTURA (fac_idFactura)
+    ,CONSTRAINT factura_producto_fk FOREIGN KEY (dv_idProducto) REFERENCES C##PROYECTDB.PR_PRODUCTO (pr_idProducto)
 );

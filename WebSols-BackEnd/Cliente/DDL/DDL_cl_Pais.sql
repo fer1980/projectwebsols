@@ -5,7 +5,7 @@
         @Requisito: N/A
 */
 
-CREATE TABLE cl_Pais(
+CREATE TABLE C##PROYECTDB.CL_PAIS(
      pa_idPais  NUMBER(3)       NOT NULL
     ,pa_pais    NVARCHAR2(32)   NOT NULL
     ,pa_idIdioma  NUMBER(2)       NOT NULL

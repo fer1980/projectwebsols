@@ -5,7 +5,7 @@
         @Requisito: Creacion de tabla cl_Pais
 */
 
-CREATE TABLE cl_Depto(
+CREATE TABLE C##PROYECTDB.CL_DEPTO(
      dp_idDepto NUMBER(3) NOT NULL
     ,dp_idPais  NUMBER(3) NOT NULL
     ,dp_depto NVARCHAR2(32) NOT NULL

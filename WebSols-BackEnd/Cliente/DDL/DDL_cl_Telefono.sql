@@ -5,10 +5,10 @@
         @Requisito: creacion de tablas:  cl_cliente
 */
 
-CREATE TABLE cl_Telefono(
+CREATE TABLE C##PROYECTDB.CL_TELEFONO(
      te_tipoTelefono     CHAR(1) NOT NULL
     ,te_idCliente        INT
-    ,te_telefono         NVARCHAR(16)
+    ,te_telefono         NVARCHAR2(16)
     ,CONSTRAINT pk_telefono PRIMARY KEY (te_tipoTelefono, te_idcliente)
     ,CONSTRAINT telefono_cliente_fk FOREIGN KEY (te_idcliente) REFERENCES cl_cliente (cl_idCliente)
 );
