@@ -1,0 +1,29 @@
+Proyecto: Sistema para Ventas de productos y Servicios en Internet
+Descripcion: Scripts para la creacion de tablas iniciales
+Version: 1.0
+Requisitos: N/A
+BASE DE DATOS: ----
+
+Orden de ejucion:
+1. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Profesion.sql
+2. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Pais.sql
+3. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Depto.sql
+4. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Ciudad.sql
+5. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Cliente.sql
+6. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Direccion.sql
+7. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_cl_Telefono.sql
+8. /projectwebsols/WebSols-BackEnd/Cliente/DDL/DDL_catalogos.sql
+
+9.  /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_categoria.sql
+10. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_descuento.sql
+11. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_proveedor.sql
+12. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_tienda.sql
+13. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_fabricante.sql
+14. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_producto.sql
+15. /projectwebsols/WebSols-BackEnd/Producto/DDL/DDL_pr_tienda_producto.sql
+
+16. /projectwebsols/WebSols-BackEnd/Empleado/DDL/DDL_em_cargo.sql
+17. /projectwebsols/WebSols-BackEnd/Empleado/DDL/DDL_em_empleado.sql
+
+18. /projectwebsols/WebSols-BackEnd/Venta/DDL/DDL_ve_factura.sql
+19. /projectwebsols/WebSols-BackEnd/Venta/DDL/DDL_ve_detalle_venta.sql

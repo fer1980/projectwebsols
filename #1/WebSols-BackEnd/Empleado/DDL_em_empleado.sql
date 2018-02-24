@@ -9,7 +9,7 @@ CREATE TABLE C##PROYECTDB.EM_EMPLEADO(
      em_codPlanilla          NUMBER(3) NOT NULL
     ,em_nombres              NVARCHAR2(64) NOT NULL
     ,em_pApellido            NVARCHAR2(32) NOT NULL
-    ,em_sApellido            NVARCHAR2(32) NOT NULL
+    ,em_sApellido            NVARCHAR2(32)
     ,em_fecha_ing            DATE NOT NULL
     ,em_fecha_fin            DATE NOT NULL
     ,em_sueldo               NUMBER(6,00) NOT NULL
@@ -17,6 +17,7 @@ CREATE TABLE C##PROYECTDB.EM_EMPLEADO(
     ,em_tienda               NUMBER(3) NOT NULL
     ,em_cargo                NUMBER(3) NOT NULL
     ,em_estado               NUMBER(3) NOT NULL
+    ,em_clave                NVARCHAR2(16) NOT NULL
     ,CONSTRAINT pk_empleado PRIMARY KEY (em_codPlanilla)
     ,CONSTRAINT empleado_cargo_fk FOREIGN KEY (em_cargo) REFERENCES C##PROYECTDB.EM_CARGO (car_idCargo)
     ,CONSTRAINT empleado_tienda_fk FOREIGN KEY (em_tienda) REFERENCES C##PROYECTDB.PR_TIENDA (ti_idTienda)
