@@ -1,0 +1,10 @@
+Angel = 	core i5, 4Gb RAM, 1Tb => Firewall
+Estuardo = 	core i3, 8Gb RAM, => BDD Replica
+Fernando = 	core i3, 8Gb RAM, => BDD Productiva
+Kevin =		celeron, 8Gb RAM, => Backup
+Luis= 		core i7, 12 Gb RAM, => Aplicacion
+
+24/02/2018 Diseño de la base de datos
+24/03/2018 Arquitectura de la Red
+07/04/2018 Presentacion de la Replica
+12/05/2018 80% del aplicativo
