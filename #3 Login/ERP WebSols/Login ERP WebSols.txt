@@ -1,0 +1,12 @@
+Solicitud: Creacion de login para modulo ERP WebSols
+Descripcion:
+Se solicita el front-end del sitio web que permitirá al empleado ingresar al modulo
+(Login). Se requiere un diseño responsive, para el cual se recomienda utilizar Bootstrap,
+y desarrollo en jsp.
+Se solicita la conectividad a Oracle DB.
+
+Fecha inicio: 20/03/2018
+Fecha propuesta: 25/03/2018
+
+url:
+https://tasks.office.com/miumg.edu.gt/es-es/Home/Task/5ZlEMttQ9EqE6B0cwQ0LyGQAOFH9

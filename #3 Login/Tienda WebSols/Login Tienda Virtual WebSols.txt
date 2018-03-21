@@ -1,0 +1,12 @@
+Solicitud: Creacion de login para Tienda Virtual WebSols
+Descripcion:
+Se solicita el front-end del sitio web que permitirá al cliente ingresar al modulo
+(Login). Se requiere un diseño responsive, para el cual se recomienda utilizar Bootstrap,
+y desarrollado en jsp.
+Se solicita la conectividad a Oracle DB.
+
+Fecha inicio: 20/03/2018
+Fecha propuesta: 25/03/2018
+
+url:
+https://tasks.office.com/miumg.edu.gt/es-es/Home/Task/EwDtXiNgz0i52bI-s0RXjmQAARd5
