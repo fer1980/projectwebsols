@@ -1,4 +1,4 @@
-Solicitud: Creacion de login para modulo ERP WebSols
+Solicitud: Creacion de login para modulo ERP KAFEL COMPUTING.
 Descripcion:
 Se solicita el front-end del sitio web que permitirá al empleado ingresar al modulo
 (Login). Se requiere un diseño responsive, para el cual se recomienda utilizar Bootstrap,
