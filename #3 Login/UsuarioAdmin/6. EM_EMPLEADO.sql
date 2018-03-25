@@ -15,14 +15,14 @@ INSERT INTO C##PROYECTDB.EM_EMPLEADO ( EM_CODPLANILLA
                                       ,EM_CARGO
                                       ,EM_ESTADO
                                       ,EM_CLAVE)
-                            VALUES (   1
+                            VALUES (   0
                                       ,'super'
                                       ,'administrador'
                                       ,'sa'
                                       ,SYSDATE
                                       ,0
+                                      ,0
                                       ,1
                                       ,1
-                                      ,1
-                                      ,'V'
+                                      ,3
                                       ,'proyectdb')
