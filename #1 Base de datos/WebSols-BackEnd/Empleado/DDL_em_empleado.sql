@@ -18,6 +18,7 @@ CREATE TABLE C##PROYECTDB.EM_EMPLEADO(
     ,em_cargo                NUMBER(3) NOT NULL
     ,em_estado               NUMBER(3) NOT NULL
     ,em_clave                NVARCHAR2(16) NOT NULL
+    ,em_login                NVARCHAR2(16) NOT NULL
     ,CONSTRAINT pk_empleado PRIMARY KEY (em_codPlanilla)
     ,CONSTRAINT empleado_cargo_fk FOREIGN KEY (em_cargo) REFERENCES C##PROYECTDB.EM_CARGO (car_idCargo)
     ,CONSTRAINT empleado_tienda_fk FOREIGN KEY (em_tienda) REFERENCES C##PROYECTDB.PR_TIENDA (ti_idTienda)
