@@ -11,7 +11,7 @@ CREATE TABLE C##PROYECTDB.EM_EMPLEADO(
     ,em_pApellido            NVARCHAR2(32) NOT NULL
     ,em_sApellido            NVARCHAR2(32)
     ,em_fecha_ing            DATE NOT NULL
-    ,em_fecha_fin            DATE NOT NULL
+    ,em_fecha_fin            DATE
     ,em_sueldo               NUMBER(6,00) NOT NULL
     ,em_superior             NUMBER(3) NOT NULL
     ,em_tienda               NUMBER(3) NOT NULL
