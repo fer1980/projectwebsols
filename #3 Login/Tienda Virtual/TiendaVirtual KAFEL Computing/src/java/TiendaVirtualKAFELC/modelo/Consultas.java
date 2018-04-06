@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Consultas extends Conexion{
-    public boolean Autenticacion(String user, String pass) throws SQLException
+    public boolean Autenticacion(Usuario usu) throws SQLException
     {
         Statement st = con.createStatement();
         ResultSet rs = null;
@@ -21,7 +21,8 @@ public class Consultas extends Conexion{
         rs = st.executeQuery(consulta);
         
         while (rs.next()) {            
-            if (user.equals(rs.getString("EM_LOGIN"))&&pass.equals(rs.getString("EM_CLAVE"))) {
+            if (usu.getUsuario().equals(rs.getString("EM_LOGIN"))&&usu.getPass().equals(rs.getString("EM_CLAVE"))) {
+                usu.setNombre(rs.getString("EM_NOMBRES"));
                 return true;
             }
         }

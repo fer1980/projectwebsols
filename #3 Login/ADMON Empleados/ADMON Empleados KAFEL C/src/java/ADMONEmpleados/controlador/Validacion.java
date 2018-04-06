@@ -6,6 +6,7 @@
 package ADMONEmpleados.controlador;
 
 import ADMONEmpleados.modelo.Consultas;
+import ADMONEmpleados.modelo.Usuario;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -15,6 +16,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -35,16 +37,27 @@ public class Validacion extends HttpServlet {
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
         
-        String user = request.getParameter("usuario");
-        String pass = request.getParameter("pass");
-        
-        Consultas con = new Consultas();
-        
-        if (con.Autenticacion(user, pass)) {
-            response.sendRedirect("principal.jsp");
-        }else
+        try (PrintWriter out = response.getWriter())
         {
-            response.sendRedirect("index.jsp");
+            String user = request.getParameter("usuario");
+            String pass = request.getParameter("pass");
+            String nombre = "";
+
+            Usuario usu = new Usuario(user, pass, nombre);
+            Consultas con = new Consultas();
+
+            if (con.Autenticacion(usu)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("usuario", usu);
+                //response.sendRedirect("principal.jsp");
+                request.getRequestDispatcher("principal.jsp").forward(request, response);
+            }else
+            {
+                out.println("<script type=\"text/javascript\">");
+                out.println("alert('User or password incorrect');");
+                out.println("location='index.jsp';");
+                out.println("</script>");
+            }
         }
     }
 

@@ -5,28 +5,31 @@
  */
 package ERPKAFELComputing.modelo;
 
+import ERPKAFELComputing.controlador.Validacion;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author lcastaneda
  */
 public class Consultas extends Conexion{
-    public boolean Autenticacion(String user, String pass) throws SQLException
+    public boolean Autenticacion(Usuario usu) throws SQLException
     {
         Statement st = con.createStatement();
         ResultSet rs = null;
         
-        String Consulta = "SELECT * FROM EM_EMPLEADO";
+        String Consulta = "SELECT EM_LOGIN, EM_CLAVE, EM_NOMBRES || ' ' || EM_PAPELLIDO || ' ' || EM_SAPELLIDO AS NOMBRE FROM EM_EMPLEADO WHERE EM_ESTADO IN (1,3) AND EM_CARGO IN (1,5,6,7)";
         rs = st.executeQuery(Consulta);
         
         while(rs.next())
         {
-            if (user.equals(rs.getString("EM_LOGIN"))&&pass.equals(rs.getString("EM_CLAVE"))) {
+            if (usu.getUsuario().equals(rs.getString("EM_LOGIN"))&&usu.getPass().equals(rs.getString("EM_CLAVE"))) {
+                usu.setNombre(rs.getString("NOMBRE"));
                 return true;
             }
         }

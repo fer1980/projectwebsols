@@ -11,11 +11,19 @@ import java.sql.SQLException;
 
 public class Conexion
 {
-    public static final String USERNAME = "C##PROYECTDB";
-    public static final String PASSWORD = "Intopic2018";
-    public static final String HOST = "SRVPROYECTO";
+//    public static final String USERNAME = "C##PROYECTDB";
+//    public static final String PASSWORD = "Intopic2018";
+//    public static final String HOST = "SRVPROYECTO";
+//    public static final String PORT = "1521";
+//    public static final String SID = "WEBSOLS";
+//    public static final String CLASSNAME = "oracle.jdbc.OracleDriver";
+//    public static final String URL ="jdbc:oracle:thin:@"+HOST+":"+PORT+":"+SID;
+//    
+    public static final String USERNAME = "c##proyectDB";
+    public static final String PASSWORD = "proyectodb2";
+    public static final String HOST = "ServerProject";
     public static final String PORT = "1521";
-    public static final String SID = "WEBSOLS";
+    public static final String SID = "dbprojects";
     public static final String CLASSNAME = "oracle.jdbc.OracleDriver";
     public static final String URL ="jdbc:oracle:thin:@"+HOST+":"+PORT+":"+SID;
     

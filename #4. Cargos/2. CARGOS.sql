@@ -25,3 +25,24 @@ INSERT INTO C##PROYECTDB.EM_CARGO (  CAR_IDCARGO
                             VALUES (   4
                                       ,'Jefe de RRHH'
                                       ,3)
+
+INSERT INTO C##PROYECTDB.EM_CARGO (  CAR_IDCARGO
+                                    ,CAR_CARGO
+                                    ,CAR_CARGO_SUP)
+                            VALUES (   5
+                                      ,'Gerente de Tienda'
+                                      ,2)
+
+INSERT INTO C##PROYECTDB.EM_CARGO (  CAR_IDCARGO
+                                    ,CAR_CARGO
+                                    ,CAR_CARGO_SUP)
+                            VALUES (   6
+                                      ,'Jefe de Tienda'
+                                      ,5)
+
+INSERT INTO C##PROYECTDB.EM_CARGO (  CAR_IDCARGO
+                                    ,CAR_CARGO
+                                    ,CAR_CARGO_SUP)
+                            VALUES (   7
+                                      ,'Dependiente de Tienda'
+                                      ,6)

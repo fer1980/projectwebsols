@@ -6,6 +6,7 @@
 package ERPKAFELComputing.controlador;
 
 import ERPKAFELComputing.modelo.Consultas;
+import ERPKAFELComputing.modelo.Usuario;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -15,10 +16,11 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author luisa
+ * @author luis castañeda
  */
 public class Validacion extends HttpServlet {
 
@@ -34,21 +36,30 @@ public class Validacion extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
-        
-        String user = request.getParameter("usuario");
-        String pass = request.getParameter("pass");
-        
-        Consultas con = new Consultas();
-        
-        if (con.Autenticacion(user, pass)) {
-            response.sendRedirect("principal.jsp");
-        }else
-        {
-            response.sendRedirect("index.jsp");
-        }
-        
-    }
+        try (PrintWriter out = response.getWriter()){
+            String user = request.getParameter("usuario");
+            String pass = request.getParameter("pass");
+            String nombre = "";
 
+            Usuario usu = new Usuario(user, pass, nombre);
+            Consultas con = new Consultas();
+
+            if (con.Autenticacion(usu)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("usuario", usu);
+                //response.sendRedirect("principal.jsp");
+                request.getRequestDispatcher("principal.jsp").forward(request, response);
+
+            }else
+            {
+                    out.println("<script type=\"text/javascript\">");
+                    out.println("alert('User or password incorrect');");
+                    out.println("location='index.jsp';");
+                    out.println("</script>");
+            }
+        } 
+    }
+    
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
