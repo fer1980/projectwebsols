@@ -81,3 +81,53 @@ INSERT INTO C##PROYECTDB.EM_EMPLEADO ( EM_CODPLANILLA
                                       ,4
                                       ,1
                                       ,'proyectdb')
+
+-- Gerente de Tienda
+INSERT INTO C##PROYECTDB.EM_EMPLEADO ( EM_CODPLANILLA
+                                      ,EM_NOMBRES
+                                      ,EM_PAPELLIDO
+                                      ,EM_SAPELLIDO
+                                      ,EM_LOGIN
+                                      ,EM_FECHA_ING
+                                      ,EM_SUELDO
+                                      ,EM_SUPERIOR
+                                      ,EM_TIENDA
+                                      ,EM_CARGO
+                                      ,EM_ESTADO
+                                      ,EM_CLAVE)
+                            VALUES (   4
+                                      ,'Luis Alberto'
+                                      ,'Castañeda'
+                                      ,'Aleja'
+                                      ,'lcastanedaa'
+                                      ,SYSDATE
+                                      ,25000
+                                      ,1
+                                      ,1
+                                      ,5
+                                      ,1
+                                      ,'proyectodb2')
+
+-- Jefe de Tienda
+INSERT INTO C##PROYECTDB.EM_EMPLEADO ( EM_CODPLANILLA
+                                      ,EM_NOMBRES
+                                      ,EM_PAPELLIDO
+                                      ,EM_LOGIN
+                                      ,EM_FECHA_ING
+                                      ,EM_SUELDO
+                                      ,EM_SUPERIOR
+                                      ,EM_TIENDA
+                                      ,EM_CARGO
+                                      ,EM_ESTADO
+                                      ,EM_CLAVE)
+                            VALUES (   5
+                                      ,'Julio Fernando'
+                                      ,'Ajpacaja'
+                                      ,'jfernandoa'
+                                      ,SYSDATE
+                                      ,18000
+                                      ,1
+                                      ,2
+                                      ,6
+                                      ,1
+                                      ,'proyectdb')
