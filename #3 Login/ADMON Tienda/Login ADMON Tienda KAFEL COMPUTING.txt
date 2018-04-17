@@ -1,4 +1,4 @@
-Solicitud: Creacion de login para modulo Productos KAFEL Computing.
+Solicitud: Creacion de login para modulo ADMON Tienda KAFEL Computing.
 Descripcion:
 Se solicita el front-end del sitio web que permitirá al empleado ingresar al modulo
 (Login). Se requiere un diseño responsive, para el cual se recomienda utilizar Bootstrap,
